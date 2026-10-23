@@ -59,23 +59,16 @@ Examples:
 
 ---
 
-## Installation
 
-### Requirements
+
+## Requirements
 
 - Minecraft **26.3**
 - [Fabric Loader](https://fabricmc.net/use/installer/) for 26.3
 - [Fabric API](https://modrinth.com/mod/fabric-api) for 26.3
 - Java 25
 
-### Steps
-
-1. Install Fabric Loader for 26.3 using the Fabric installer.
-2. Download Fabric API for 26.3 and put it in your `.minecraft/mods` folder.
-3. Download the latest `bridgepractice-x.x.x.jar` from the Releases page and put it in the same `mods` folder.
-4. Launch the **fabric-loader-26.3** profile.
-
-### Recommended world setup
+## Recommended world setup
 
 1. Create a new world in **Survival** mode.
 2. Set World Type to **Superflat**, click **Customize**, and choose the **The Void** preset.
@@ -84,41 +77,3 @@ Examples:
 Survival mode is recommended. Creative lets you fly and Adventure mode stops you placing blocks.
 
 ---
-
-## Building from source
-
-You need JDK 25. From the project folder:
-
-```bash
-# Windows
-.\gradlew.bat build
-
-# macOS / Linux
-./gradlew build
-```
-
-The jar will be in `build/libs/` (use the one without `-sources` in the name).
-
-To test directly in a dev client:
-
-```bash
-.\gradlew.bat runClient
-```
-
----
-
-## Configuration
-
-The island B position is saved to:
-
-```
-config/bridgepractice.properties
-```
-
-Other values (island sizes, how many blocks you receive, celebration length, fall-detection depth) are constants at the top of `PracticeManager.java` and `Islands.java`.
-
----
-
-## License
-
-Add your license here (for example MIT).
