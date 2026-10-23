@@ -1,5 +1,6 @@
 <!-- Put your image in an "images" folder in the repo and name it screenshot.png (or change the path below) -->
 ![Bridge Practice](images/gigaSteve.jpg)
+
 # Bridge Practice
 
 A Fabric mod for Minecraft **26.3** that gives you a tiny void world to practice **speed bridging**.
